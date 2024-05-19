@@ -1,0 +1,47 @@
+@media screen and (max-width: 576px) {
+    .justify {
+        text-align: justify;
+    }
+
+    .first{
+        flex-direction: column;
+    }
+
+    .second{
+        width: 100%;
+    }
+
+    .program {
+        width: 100%;
+        height: auto;
+    }
+
+    .p-details {
+        position: static;
+    }
+    .qna,right-part{
+        width: 100%;
+    }
+    .left-details {
+        max-width: 300px; /* Adjust based on your design */
+      }
+      .right-details {
+        flex-grow: 1;
+      }
+    .product{
+        width: 100%;
+    }
+
+}
+@media (max-width: 992px) {
+    .product {
+      width: 100%;
+    }
+    .right-part {
+        margin-left: 40px; /* Add margin on larger screens */
+    }
+    .second{
+        width: 100%;
+    }
+      
+  }
